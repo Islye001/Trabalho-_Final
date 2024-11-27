@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus interesses pessoais</title>
+    <link href="styles.css" rel="stylesheet">
+    <style>
+        body {
+            border-top: 10px solid #ff00aa;
+            /* Borda superior */
+            border-bottom: 10px solid #ff00aa;
+            /* Borda inferior */
+            padding: 40px 10px;
+            /* Espaçamento lateral do conteúdo */
+            background-color: #f8f9fa;
+            /* Fundo claro */
+            margin: 0;
+            /* Remove margem padrão */
+            box-sizing: border-box;
+            /* Inclui borda no tamanho total */
+
+        }
+
+        main {
+            border-left: 8px solid #ff00aa;
+            /* Borda na esquerda */
+            border-right: 8px solid #ff00aa;
+            /* Borda na direita */
+            background: #fff;
+            /* Fundo branco no conteúdo principal */
+            padding: 20px;
+            /* Espaçamento interno */
+            border-radius: 8px;
+            /* Cantos arredondados */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            /* Sombra no bloco principal */
+            border-bottom: 2px solid #ff00aa;
+            border-top: 2px solid #ff00aa;
+        }
+
+
+
+        img {
+            object-fit: cover;
+            width: 205px;
+            height: 120px;
+            border-radius: 5px;
+
+        }
+
+        .container,
+        .container1,
+        .container2 {
+            display: flex;
+            justify-content: space-evenly;
+
+        }
+
+        h3 {
+            font-size: 1.8em;
+            color: #050505;
+            /* Alterne entre uma cor contrastante */
+            text-align: center;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #ff00aa;
+            /* Adiciona uma linha decorativa */
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        section {
+            margin: 30px 0;
+        }
+
+        img {
+            transition: transform 0.3s, box-shadow 0.3s;
+            border-radius: 8px;
+            /* Arredonde as bordas */
+        }
+
+        img:hover {
+            transform: scale(1.05);
+            /* Aumenta levemente a imagem */
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+            /* Adiciona uma sombra */
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 20px;
+            /* Espaçamento entre os itens */
+            justify-items: center;
+            /* Centraliza as imagens */
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 1.5em;
+            }
+
+            .container {
+                grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            }
+        }
+
+        body {
+            background: linear-gradient(135deg, #f3f4f7, #ffffff);
+            /* Gradiente leve */
+            font-family: 'Arial', sans-serif;
+            /* Troque para uma fonte moderna */
+            color: #333;
+            background-image: url(Design\ sem\ nome.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        main {
+            max-width: 12200px;
+            /* Define um limite para a largura */
+            margin: auto;
+            /* Centraliza o conteúdo */
+
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-top: 20px;
+            /* Espaço acima do título */
+            margin-bottom: 30px;
+            /* Espaço abaixo do título */
+            color: #ff007a;
+            /* Rosa forte */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h2> Meus Gostos </h2>
+
+    <main>
+        <h3>Animais</h3>
+        <br />
+        <div class="container">
+            <img src="gato1.jpg">
+            <img src="raposa.webp">
+            <img src="tigre branco.webp">
+            <img src="lobo.jpg">
+            <img src="lontra.jpg">
+            <img src="dog.avif">
+            <img src="coelho.jpg">
+        </div>
+        <hr>
+
+        <h3>Gosto de fazer</h3>
+        <div class="container1">
+            <img src="musica.jpg">
+            <img src="jogar.webp">
+            <img src="conversar.webp">
+            <img src="programar.jpg">
+            <img src="dormir.jpg">
+            <img src="volley.jfif">
+        </div>
+        <hr>
+        <h3>Jogos favoritos</h3>
+        <div class="container2">
+            <img src="bendy.jpg">
+            <img src="roblox.webp">
+            <img src="dale & dawson.jpg">
+            <img src="the sims 4.avif">
+            <img src="stardew valley.jpg">
+            <img src="supermarket.jpg">
+            <img src="content warmig.jfif">
+        </div>
+    </main>
+
+
+
+</body>

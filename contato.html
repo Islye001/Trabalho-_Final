@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Me Contate</title>
+
+    <style>
+        /* Formulario */
+        form {
+            margin-top: 25px;
+            background: #fefeff;
+            padding: 15px;
+            border-radius: 8px;
+            border: 1px solid ;
+            color: #ff00aa;
+        }
+
+        form label {
+            font-weight: bold;
+            margin-bottom: 5px;
+            display: block;
+        }
+
+        form input {
+            width: 95%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #ff00aa;
+            border-radius: 5px;
+            font-family: Arial, sans-serif;
+
+        }
+
+
+        form button {
+            display: block;
+            /* Faz o botão ocupar o espaço todo do bloco */
+            font-family: Arial, sans-serif;
+            /* Define a fonte */
+            font-weight: bold;
+            /* Negrito */
+            font-size: 1rem;
+            /* Tamanho do texto consistente */
+            color: white;
+            /* Texto branco */
+            background-color: #ff00aa;
+            /* Fundo rosa */
+            border: 2px solid #ff00aa;
+            /* Borda rosa */
+            border-radius: 5px;
+            /* Bordas arredondadas */
+            padding: 10px 20px;
+            /* Espaçamento interno */
+            margin: 10px auto;
+            /* Centraliza o botão horizontalmente */
+            cursor: pointer;
+            /* Mostra o cursor ao passar */
+            text-align: center;
+            /* Centraliza o texto */
+            box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+            /* Adiciona uma sombra */
+            transition: all 0.3s ease;
+            /* Anima mudanças */
+        }
+
+        form button:hover {
+            background-color: white;
+            /* Fundo branco ao passar o mouse */
+            color: #ff00aa;
+            /* Texto rosa */
+            border-color: #ff00aa;
+            /* Mantém a borda rosa */
+        }
+
+        /* bordas embaixo da palavra*/
+        h4 {
+
+            color: #343a40;
+            border-bottom: 2px solid #ff00aa;
+            display: inline-block;
+            padding-bottom: 5px;
+            font-size: 30px;
+
+
+        }
+
+        body {
+            border-top: 10px solid #ff00aa;
+            /* Borda superior */
+            border-bottom: 10px solid #ff00aa;
+            /* Borda inferior */
+            padding: 0 20px;
+            /* Espaçamento lateral do conteúdo */
+            background-color: #f8f9fa;
+            /* Fundo claro */
+            margin: 0;
+            /* Remove margem padrão */
+            box-sizing: border-box;
+            /* Inclui borda no tamanho total */
+            background-image: url(Design\ sem\ nome.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+
+        main {
+            border-left: 8px solid #ff00aa;
+            /* Borda na esquerda */
+            border-right: 8px solid #ff00aa;
+            /* Borda na direita */
+            background: #fff;
+            /* Fundo branco no conteúdo principal */
+            padding: 45px;
+            /* Espaçamento interno */
+            border-radius: 8px;
+            /* Cantos arredondados */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            /* Sombra no bloco principal */
+            margin-bottom: 20px;
+            border-bottom: 2px solid #ff00aa;
+            border-top: 2px solid #ff00aa;
+        }
+
+
+
+        .titulo {
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-top: 20px;
+            /* Espaço acima do título */
+            margin-bottom: 30px;
+            /* Espaço abaixo do título */
+            color: #ff007a;
+            /* Rosa forte */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+
+    <div id="perguntas">
+        <h2 class="titulo">Informe seus dados para contato</h2>
+        <main>
+            <form action="button">
+                <h4>📅Seus dados</h4>
+
+                <label for="cliente-nome">Nome</label>
+                <input id="nome-cliente" type="text" placeholder="Nome completo">
+                <br />
+                <label for="cliente-contato">Celular</label>
+                <input id="contato-cliente" type="text" placeholder="(01) 2 3458-7890">
+                <br />
+                <label for="cliente-email">E-mail</label>
+                <input id="email-cliente" type="text" placeholder="...@gmail.com">
+                <br />
+                <label for="cliente-assunto">Assunto</label>
+                <input id="assunto" type="text" placeholder="Sobre o que deseja falar?">
+                <br />
+                <button id="botao-enviar">Enviar</button>
+
+        </main>
+    </div>
+</body>

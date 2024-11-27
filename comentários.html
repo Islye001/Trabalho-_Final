@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comentários</title>
+
+
+  <style>
+    body {
+      border-top: 8px solid #ff00aa;
+      /* Borda superior */
+      border-bottom: 8px solid #ff00aa;
+      /* Borda inferior */
+      padding: 10px 15px;
+      /* Espaçamento lateral do conteúdo */
+      background-color: #f8f9fa;
+      /* Fundo claro */
+      margin: 0;
+      /* Remove margem padrão */
+
+      background-image: url(Design\ sem\ nome.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    main {
+      border-left: 8px solid #ff00aa;
+      /* Borda na esquerda */
+      border-right: 8px solid #ff00aa;
+      /* Borda na direita */
+     
+      padding: 15px;
+      /* Espaçamento interno */
+      border-radius: 8px;
+      /* Cantos arredondados */
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      /* Sombra no bloco principal */
+      border-bottom: 2px solid #ff00aa;
+      border-top: 2px solid #ff00aa;
+    }
+
+    #comentarios {
+      margin: 20px 10px;
+      padding: 0px;
+      border-radius: 8px;
+      color: #ff00aa;
+      background-color: #f8f9fa;
+      margin-top: 2px;
+    }
+
+    #comentarios h2 {
+      text-align: center;
+      color: #ff00aa;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    label {
+      font-weight: bold;
+    }
+
+    input,
+    textarea,
+    button {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+
+    button {
+      background-color: #ff00aa;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #e60090;
+    }
+
+    form button {
+      display: block;
+      /* Faz o botão ocupar o espaço todo do bloco */
+      font-family: Arial, sans-serif;
+      /* Define a fonte */
+      font-weight: bold;
+      /* Negrito */
+      font-size: 1rem;
+      /* Tamanho do texto consistente */
+      color: white;
+      /* Texto branco */
+      background-color: #ff00aa;
+      /* Fundo rosa */
+      border: 2px solid #ff00aa;
+      /* Borda rosa */
+      border-radius: 5px;
+      /* Bordas arredondadas */
+      padding: 10px 20px;
+      /* Espaçamento interno */
+      margin: 10px auto;
+      /* Centraliza o botão horizontalmente */
+      cursor: pointer;
+      /* Mostra o cursor ao passar */
+      text-align: center;
+      /* Centraliza o texto */
+      box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+      /* Adiciona uma sombra */
+      transition: all 0.3s ease;
+      /* Anima mudanças */
+    }
+
+    form button:hover {
+      background-color: white;
+      /* Fundo branco ao passar o mouse */
+      color: #ff00aa;
+      /* Texto rosa */
+      border-color: #ff00aa;
+      /* Mantém a borda rosa */
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    h2 {
+      margin-top: 20px;
+      color: #030303;
+      border-bottom: 2px solid #ff00aa;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    h1 {
+      font-size: 3rem;
+      color:deeppink;
+      margin-bottom: 20px;
+      text-align: center;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <h1> Comente Aqui</h1>
+  <section id="comentarios">
+  
+    <br>
+    <br>
+    <main>
+      <h2>💬 Envie seu Comentário</h2>
+      <br />
+      <br>
+      <form action="#" method="post">
+        <label for="nome">Seu Nome:</label>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+
+        <label for="email">Seu Email:</label>
+        <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+
+        <label for="mensagem">Sua Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="5" placeholder="Digite sua mensagem" required></textarea>
+        <br>
+        <button type="submit">Enviar</button>
+      </form>
+  </section>
+  </main>
+</body>

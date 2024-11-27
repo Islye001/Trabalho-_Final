@@ -1,0 +1,247 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Basic Layout */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #ebc1fc; /* Tom claro */
+    color: #343a40; /* Tom escuro para contraste */
+    padding: 0 15px;
+}
+
+/* Main Content */
+main {
+    margin: 20px auto;
+    max-width: 1000px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px ;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+    border-bottom: 2px solid #ff00aa;
+    border-top: 2px solid #ff00aa;
+    
+}
+
+/* Header and Titles */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ff00aa; 
+}
+
+h2, h4 {
+    margin-top: 20px;
+    color: #030303;
+    border-bottom: 2px solid #ff00aa;
+    display: inline-block;
+    padding-bottom: 5px;
+  
+}
+
+h4 {
+    font-size: 1.2rem;
+}
+
+/* Links */
+a {
+    color: #ff00aa;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* Sections */
+section {
+    margin-bottom: 30px;
+}
+
+section p {
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+/* Images */
+section img {              
+    margin: 10px 5px 0 0;
+    border-radius: 50%;
+}
+a {
+    color: #ff00aa;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+/*index html */
+.link-conhecimentos {
+    display: block; /* Faz o link aparecer em uma nova linha */
+    margin-top: 10px; /* Adiciona um espaço entre o título e o link */
+    font-size: 1 rem; /* Aumenta o tamanho do texto */
+    color: white; /* para destacar o link */
+    text-decoration: none; /* Remove o sublinhado */
+    transition: color 0.3s ease;
+}
+
+.link-conhecimentos:hover {
+    color: #ff00aa; /* Escurece ao passar o mouse */
+    text-decoration: underline; /* Adiciona o sublinhado no hover */
+}
+
+
+/* deixar links um do lado do outro */
+.links-informacoes {
+    display: flex; /* Alinha os links em linha */
+    gap: 15px; /* Espaçamento entre os links */
+    margin-top: 10px; /* Espaçamento superior */
+}
+
+.links-informacoes a {
+    text-decoration: none; /* Remove sublinhado dos links */
+    color: white; /* Cor rosa para os links */
+    font-weight: bold; /* Deixa os links em negrito */
+    transition: color 0.3s ease; /* Suaviza a troca de cor no hover */
+}
+
+.links-informacoes a:hover {
+    color: rgb(255, 67, 167); /* Cor mais escura ao passar o mouse */
+}
+
+
+main .categorias a {
+    text-decoration: none; /* Remove sublinhado */
+    color:white; /* Cor rosa padrão */
+    font-weight: bold; /* Negrito */
+    margin-right: 10px; /* Espaço entre os links */
+    transition: color 0.3s ease; /* Suaviza a troca de cor no hover */
+}
+
+main .categorias a:hover {
+    color: rgb(255, 67, 167); /* Cor mais clara ao passar o mouse */
+}
+
+h1 {
+    color: #ff00aa;
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    transition: color 0.3s ease; /* Transição suave */
+}
+
+h1:hover {
+    color: deeppink; /* Muda para um rosa mais escuro no hover */
+}
+
+body {
+    border-top: 8px solid #ff00aa; /* Borda superior */
+    border-bottom: 8px solid #ff00aa; /* Borda inferior */
+    padding: 0 15px; /* Espaçamento lateral do conteúdo */
+    background-color: #f8f9fa; /* Fundo claro */
+    margin: 0; /* Remove margem padrão */
+    box-sizing: border-box; /* Inclui borda no tamanho total */
+    background-image: url(Design\ sem\ nome.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main {
+    border-left: 8px solid #ff00aa; /* Borda na esquerda */
+    border-right: 8px solid #ff00aa; /* Borda na direita */
+    background: #fff; /* Fundo branco no conteúdo principal */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 8px; /* Cantos arredondados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra no bloco principal */
+    
+}
+h1 {
+    font-size: 3rem;
+    color: #ff007a;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    text-align: center;
+}
+.introducao {
+    text-align: justify;
+    line-height: 1.6;
+    font-size: 1rem;
+    color: #333;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-left: 5px solid #ff007a;
+    border-radius: 5px;
+}
+
+/* Estilo para o contêiner principal */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Fundo claro */
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1.titulo {
+    font-size: 3rem;
+    color: #ff007a;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  h4 {
+    margin-bottom: 10px;
+  }
+  
+  /* Estilo para os botões de navegação */
+  nav a {
+    display: inline-block; /* Torna os links em "blocos" para aparência de botão */
+    text-decoration: none; /* Remove sublinhado */
+    color: white; /* Cor do texto */
+    background-color: #ff00aa; /* Cor de fundo */
+    padding: 10px 20px; /* Espaçamento interno */
+    margin: 5px; /* Espaçamento entre os botões */
+    border-radius: 5px; /* Cantos arredondados */
+    font-size: 1em; /* Tamanho do texto */
+    transition: background-color 0.3s, transform 0.2s; /* Transições suaves */
+  }
+  
+  /* Efeito ao passar o mouse */
+  nav a:hover {
+    background-color: #ffb9e7; /* Cor mais escura ao passar o mouse */
+    transform: scale(1.05); /* Leve aumento ao passar o mouse */
+  }
+  
+  /* Estilo para manter a responsividade */
+  nav {
+    text-align: center; /* Centraliza os botões */
+    margin-top: 10px;
+  }
+  
+  .links-informacoes nav {
+    display: flex;
+    flex-wrap: wrap; /* Permite quebra de linha em telas pequenas */
+    justify-content: center; /* Centraliza os itens */
+    gap: 15px;
+  }
+  
+
+
+
+
+  
+  
+
+
+
+
+
