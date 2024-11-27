@@ -26,7 +26,8 @@ Comandos Básicos do Git 🛠️
 
 Caso tenha erros ao utilizar o comando no VS CODE:
 (Ja deve ter o GIt instalado na máquina)
- Isso está acontecendo pq o seu repositório local não está sincronizado com a nuvem. Para consertar faz os seguites passos:
+ Isso está acontecendo pq o seu repositório local não está sincronizado com a nuvem. 
+ Para consertar faz os seguites passos:
 1. Cria uma nova pasta dentro da pasta Downloads 
 2. Dentro da pasta criada, abra o git bash e digita: git clone URL-teu-projeto-github
 3. Depois de fazer o clone, faz as modificações no arquivo index.html (qualquer coisa) e então executa os comandos
